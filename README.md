@@ -17,6 +17,11 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** system designed to ingest
 
 ### 🏗️ System Architecture
 
+[ PDF Documents ] ──► [ Text Parsing & Chunking ] ──► [ Vector Store (ChromaDB) ]
+│
+[ User Query ] ─────► [ Hybrid Search (Dense + Sparse) ] ──► [ Cohere Neural Rerank ]
+│
+[ Grounded Answer + Page Citations ] ◄── [ LLM Generation ] ◄──┘
 ---
 
 ### 🛠️ Core Stack
