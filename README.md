@@ -2,6 +2,8 @@
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** system designed to ingest, index, and query multiple PDF documents concurrently. The application addresses common LLM limitations—such as hallucinations and outdated information—by combining semantic vector search, sparse keyword matching (BM25), and neural reranking to deliver precise, context-grounded answers accompanied by exact page-level citations.
 
+> ⚠️ **Important:** This application requires a valid **Cohere API Key** to perform document reranking and model inference. You can generate a free key at [dashboard.cohere.com](https://dashboard.cohere.com/api-keys).
+
 ---
 
 ### 🌟 Key Features
